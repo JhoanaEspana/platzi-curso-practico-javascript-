@@ -1,4 +1,4 @@
-// Código del cuadrado
+/* // Código del cuadrado
 console.group("Cuadrado");
 
 const ladoCuadrado = 5;
@@ -58,4 +58,42 @@ console.log("El perimetro del circulo es: " + perimetroCirculo + "cm");
 const areaCirculo = (radioCirculo * radioCirculo) * PI;
 console.log("El área del circulo es: " + areaCirculo + "cm2");
 
-console.groupEnd();
+console.groupEnd(); */
+
+
+// Código del cuadrado
+function perimetroCuadrado(lado){
+  return lado * 4;
+}
+
+function areaCuadrado(lado){
+  return lado * lado;
+}
+
+
+// Código del triangulo
+function perimetroTriangulo(ladoT1, ladoT2, baseT){
+  return ladoT1 + ladoT2 + baseT;  
+}
+
+function areaT(baseT, alturaT){
+  return (baseT * alturaT) / 2;
+}
+
+
+// Código del circulo
+function diametroCirculo(radio){
+  return radio * 2;
+}
+
+//PI
+const PI = Math.PI;
+
+function perimetroCirculo(radio){
+  const diametro = diametroCirculo(radio);
+  return diametro * PI;
+}
+
+function areaCirculo(radio){
+  return (radio * radio) * PI;
+}
