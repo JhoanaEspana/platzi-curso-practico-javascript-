@@ -16,3 +16,10 @@ Cuso practico de la escuela de Desarrollo Web de Platzi
 - Segundo paso: implementar las formulas en JavaScript
 - Tercer paso: crear funciones
 - Cuarto paso: integrar JavaScript con HTML
+
+## Taller #3: Promedio, moda y mediana
+
+- Primer paso: definir las formulas
+- Segundo paso: implementar las formulas en JavaScript
+- Tercer paso: crear funciones
+- Cuarto paso: integrar JavaScript con HTML
